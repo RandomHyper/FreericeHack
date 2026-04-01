@@ -37,7 +37,7 @@ window.freeRiceHackFunc = function() {
     bruh.shift();
   }
 
-  bruh.push(setTimeout(window.freeRiceHackFunc, 100));
+  bruh.push(setTimeout(window.freeRiceHackFunc, 1500));
 };
 
 // Define a list to save all the timeouts
@@ -45,4 +45,4 @@ window.freeRiceHackFunc = function() {
 window.bruh = [];
 
 // Start the hack with an initial timeout, it will recall itself automatically
-bruh.push(setTimeout(window.freeRiceHackFunc, 100));
+bruh.push(setTimeout(window.freeRiceHackFunc, 1500));
